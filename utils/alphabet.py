@@ -49,6 +49,7 @@ class Alphabet:
             if self.keep_growing:
                 index = self.next_index
                 self.add(instance)
+                self.next_index += 1
                 return index
             else:
                 return self.instance2index[self.UNKNOWN]
