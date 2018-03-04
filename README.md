@@ -9,7 +9,7 @@ Welcome to star this repository!
 Requirement:
 ======
 	Python: 2.7   
-	PyTorch: 0.3
+	PyTorch: 0.3.0
 
 Functions
 ========
