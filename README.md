@@ -11,7 +11,7 @@ Requirement:
 	Python: 2.7   
 	PyTorch: 0.3.0
 
-Functions
+Features
 ========
 * State-of-the-art sequence labeling model with the combination of different input features(word embedding, char LSTM, char CNN ) and output structures (CRF, softmax). i.e. (BILSTM-CRF, BiLSTM) x (character LSTM, character CNN, None).
 * Batch training/decoding supported, with fast running speed. Most model cost less than 1 minitus for each epoch, finish the whole training process within 2 hours (with the help of GPU).
